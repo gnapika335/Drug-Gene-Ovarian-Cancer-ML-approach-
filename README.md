@@ -37,8 +37,20 @@ Main Python libraries used:
 - Did a quick exploratory plot on the following: (+/- interaction pair counts), (top 20 gene mutation frequencies), (Mutated genes per sample).
 
 ## Workflow
-- **Week 1:** Scope definition + literature review ✅
-- **Week 2:** Environment setup + repo structure ✅
-- **Week 3:** Dataset collection & preprocessing 🔜
-- **Week 4:** Pilot ML experiment with baseline models
+- Month 1 Getting started on Literature (Week1-Week4) 
+- **Week 1:** Scope definition + literature review.
+- **Week 2:** Environment setup + repo structure.
+- **Week 3:** Dataset collection & preprocessing.
+- **Week 4:** Pilot ML experiment with baseline models.
+- Month 2 – Collect & clean data (Weeks 5–8)
+●Download:
+- Ovarian cancer gene data (e.g., TCGA).
+- Known drug–target interactions (DrugBank / ChEMBL / DGIdb).
+- Drug structures (SMILES).
+●Clean:
+- Make sure gene/drug IDs are consistent.
+- Remove duplicates.
+- Build a pair dataset: positives = known interactions, negatives = random pairs.
+- Do quick exploratory plots (how many drugs, genes, interactions).
+
 
