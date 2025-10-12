@@ -30,6 +30,11 @@ Main Python libraries used:
 - Repo and folder structure created.
 - Literature review: 6 papers summarized.
 - Next step: download ovarian cancer gene expression and drug sensitivity data (TCGA-OV, GDSC).
+- Data collection from UCSC XENA, containing RNA based expression data of TCGA-OV.
+- Trained ML Models( RF,Logistic Regression) to split train and test data, and analyze top predicted genes accordingly.
+- Also removed missing values, made sure gene ID/symbols are correct.
+- Analyzed top 20 predicted genes.
+- Did a quick exploratory plot on the following: (+/- interaction pair counts), (top 20 gene mutation frequencies), (Mutated genes per sample).
 
 ## Workflow
 - **Week 1:** Scope definition + literature review ✅
